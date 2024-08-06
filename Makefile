@@ -3,7 +3,7 @@ test:
 	python3 -m pytest
 
 format:
-	python3 -m black .
+	python3 -m ruff format
 
 clean:
 	git clean -Xdf
